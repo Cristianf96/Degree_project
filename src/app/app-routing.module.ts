@@ -12,8 +12,12 @@ const routes: Routes = [
     loadChildren: () => import('./folder/folder.module').then( m => m.FolderPageModule)
   },
   {
-    path: 'home',
+    path: 'home/:id',
     loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)
+  },
+  {
+    path: 'programs/:id',
+    loadChildren: () => import('./programs/programs.module').then( m => m.ProgramsPageModule)
   }
 ];
 

@@ -6,7 +6,7 @@ ion-menu-button {
     font-family: SourceSansPro;
     --padding-start: 5vw;
     --padding-end: 5vw;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     font-size: 16px;
     line-height: 1.5;
 }
@@ -37,6 +37,6 @@ h4 {
 a {
   font-weight: bold;
   line-height: 0.94;
-  color: var(--pale-olive-green);
+  color: green;
   text-decoration: none;
 }
