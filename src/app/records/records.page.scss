@@ -1,0 +1,38 @@
+ion-menu-button {
+    color: var(--ion-color-primary);
+  }
+
+  ion-content{
+    font-family: SourceSansPro;
+    --padding-start: 5vw;
+    --padding-end: 5vw;
+    letter-spacing: 2px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+ion-slide{
+  display: block;
+}
+
+.slide-img{
+  padding: 40px;
+}
+
+h1 {
+  color: green;
+  font-size: 24px;
+  text-align: center;
+  width: 100%;
+}
+
+h3{
+  font-size: 20px;
+  font-weight: lighter;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+img{
+  max-height: 400px;
+}

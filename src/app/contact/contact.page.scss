@@ -1,0 +1,24 @@
+ion-menu-button {
+    color: var(--ion-color-primary);
+  }
+
+  ion-content{
+    font-family: SourceSansPro;
+    --padding-start: 5vw;
+    --padding-end: 5vw;
+    letter-spacing: 2px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.contact-form{
+    padding: 40px;
+}
+
+ion-item{
+    margin-top: 20px;
+}
+
+ion-button{
+    margin-top: 20px;
+}

@@ -18,6 +18,14 @@ const routes: Routes = [
   {
     path: 'programs/:id',
     loadChildren: () => import('./programs/programs.module').then( m => m.ProgramsPageModule)
+  },
+  {
+    path: 'records/:id',
+    loadChildren: () => import('./records/records.module').then( m => m.RecordsPageModule)
+  },
+  {
+    path: 'contact/:id',
+    loadChildren: () => import('./contact/contact.module').then( m => m.ContactPageModule)
   }
 ];
 

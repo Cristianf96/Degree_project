@@ -1,0 +1,24 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>{{ records }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-slides pager="true">
+    <ion-slide *ngFor="let slide of slides">
+      <div>
+        <h1 [innerHTML]="slide.title"></h1>
+      </div>
+      <div class="slide-img">
+        <img [src]="slide.img">
+      </div>
+      <div>
+        <h3 [innerHTML]="slide.information"></h3>
+      </div>
+    </ion-slide>
+  </ion-slides>
+</ion-content>

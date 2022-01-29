@@ -1,0 +1,22 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>{{ contact }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+<!-- Texto explicativo -->
+<ion-content [fullscreen]="true">
+  <div padding class="contact-form">
+    <ion-item>
+      <ion-label color="primary" position="stacked">Subject</ion-label>
+      <ion-input [(ngModel)]="subject" type="text" placeholder="Type your Subject"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label color="primary" position="stacked">Body Content</ion-label>
+      <ion-textarea [(ngModel)]="body" type="text-area" placeholder="Type your Content" rows="6"></ion-textarea>
+    </ion-item>
+    <ion-button expand="block" (click)="send()" >Send</ion-button>
+  </div>
+</ion-content>
